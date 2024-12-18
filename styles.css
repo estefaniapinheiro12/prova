@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f0f7;
+    color: #4c3a51;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #5d3c6c;
+}
+
+.dish-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dish-info img {
+    max-width: 150px;
+    border-radius: 10px;
+    border: 2px solid #cbb2d8;
+}
+
+.details {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.details h2 {
+    margin: 0;
+    color: #4c3a51;
+}
+
+.details p {
+    margin: 5px 0;
+    color: #6e5a7e;
+}
+
+button {
+    background-color: #7a4fa3;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #5e3a7b;
+    transform: scale(1.05);
+}
+
+.orders {
+    margin-top: 20px;
+    text-align: center;
+    color: #4c3a51;
+    font-weight: bold;
+}
+
+.orders span {
+    color: #7a4fa3;
+}
